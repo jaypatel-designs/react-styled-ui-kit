@@ -55,6 +55,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.4.3",
+    "lodash": "^4.17.15",
     "prettier": "^1.19.1",
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
@@ -63,5 +64,17 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.1.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.4.1"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "styled-components": "4.0.0",
+    "prop-types": ">=14"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }

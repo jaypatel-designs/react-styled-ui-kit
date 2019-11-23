@@ -1,1 +1,1 @@
-console.log('This is' + ' Value ' + 'the Message')
+export { default as Button } from './button/Button'

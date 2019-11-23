@@ -18,7 +18,9 @@ export default {
       name: 'ReactStyledUiKit',
       file: 'dist/bundle.umd.js',
       globals: {
-        react: 'React'
+        react: 'React',
+        'styled-components': 'styled',
+        'prop-types': 'PropTypes'
       },
       format: 'umd'
     }
@@ -30,5 +32,5 @@ export default {
     }),
     production && terser()
   ],
-  external: ['react']
+  external: ['react', 'styled-components', 'prop-types']
 }

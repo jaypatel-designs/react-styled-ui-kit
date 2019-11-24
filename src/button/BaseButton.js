@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { calcRem } from '../../config/calcRem'
+import { calcRem } from '../../utils/calcRem'
 
 const BaseButton = styled.button`
   border-radius: ${calcRem('100')};

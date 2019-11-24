@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import BaseButton from './BaseButton'
-import { calcRem } from '../../config/calcRem'
+import { calcRem } from '../../utils/calcRem'
 const Button = styled(BaseButton)`
   ${({ varient, theme }) => {
     if (varient && varient === 'primary') {

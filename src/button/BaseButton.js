@@ -9,7 +9,6 @@ const BaseButton = styled.button`
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
-  /* font-family: ${({ theme }) => theme.fonts.primary}; */
   font-size: ${calcRem('14')};
   font-style: normal;
   line-height: ${calcRem('40')};

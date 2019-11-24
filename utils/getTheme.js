@@ -1,5 +1,5 @@
 import theme from './theme'
-import deepmerge from './deepmerge'
+import deepMerge from './deepmerge'
 export default ctheme => {
-  return deepmerge(theme, ctheme)
+  return deepMerge(theme, ctheme)
 }
